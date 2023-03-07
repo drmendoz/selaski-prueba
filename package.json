@@ -1,0 +1,24 @@
+{
+  "name": "selaski",
+  "version": "1.0.0",
+  "description": "Prueba practica",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "dev": "npx nodemon src/index.ts",
+    "test": "tsc && jasmine"
+  },
+  "author": "David Mendoza",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^4.3.1",
+    "@types/node": "^18.14.6",
+    "jasmine": "^4.5.0",
+    "jasmine-ts-console-reporter": "^3.1.1",
+    "nodemon": "^2.0.21",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
